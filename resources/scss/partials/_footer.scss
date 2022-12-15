@@ -1,0 +1,128 @@
+.blu-row {
+    background-color: #0282f9;
+
+    .stack-wrapper {
+        width: 70%;
+        margin: 0 auto;
+        padding: 2rem 0;
+
+
+        .stacks {
+
+            color: white;
+
+            img {
+                width: 60px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.footer-links {
+    // background-image: url(../../../img/footer-bg.jpg);
+    background-color: #303030;
+    overflow: hidden;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+    .links-wrapper {
+        display: flex; ////
+        flex-direction: row; ////
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        max-height: 300px;
+        margin: 0 auto;
+
+
+        .contact-links {
+            display: flex; ////
+            flex-direction: row; ////
+
+            div {
+                margin: 0 1rem;
+            }
+
+            ul {
+                margin: 1rem 0;
+            }
+
+            h2 {
+                color: white;
+                font-size: 20px;
+            }
+
+            a {
+                color: #959595;
+
+                &:hover {
+                    color: white;
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+
+        .links-img {
+            img {
+                width: 500px;
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+.footer-social {
+    background-color: #303030;
+    min-height: 70px;
+
+
+    .wrapper-social {
+        width: 70%;
+        margin: 0 auto;
+
+
+        .button {
+            button {
+                background-color: #303030;
+                border-color: #0282f9;
+                color: white;
+                padding: 0.5rem 1rem;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #0282f9;
+                    color: black;
+                }
+            }
+        }
+
+        .social-icon {
+
+            align-items: center;
+
+            h3 {
+                color: #0282f9;
+                font-size: 15px;
+            }
+
+            span {
+                display: inline-block;
+                margin-left: 0.5em;
+                background-color: #959595;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                vertical-align: middle;
+                border-radius: 30px;
+                text-align: center;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #0282f9;
+                    color: white;
+                }
+            }
+        }
+    }
+}
