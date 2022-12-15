@@ -5,11 +5,13 @@
         <div class="wrapper-cards">
             <h2>CURRENT SERIES</h2>
             <div class="container">
-                <div class="row row-cols-5">
+                <div class="row row-cols-4 flex-wrap">
                     @foreach ($data as $comic)
                         <div class="col mb-3">
                             <div class="comic-card">
-                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                                <div class="img-cont">
+                                    <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                                </div>
                                 <h4>{{ $comic['title'] }}</h4>
                             </div>
                         </div>
