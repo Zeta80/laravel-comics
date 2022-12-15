@@ -3,7 +3,9 @@
 
         <header class="header d-flex justify-content-around">
             <div class="logo">
-                <img src=" {{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo dc">
+                <a href="{{ route('home') }}">
+                    <img src=" {{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo dc">
+                </a>
             </div>
             <nav class="header-navigation ">
                 <ul class="d-flex flex-row">
@@ -11,7 +13,7 @@
                         <a>CHARACTERS</a>
                     </li>
                     <li>
-                        <a>COMICS</a>
+                        <a href="{{ route('comics') }}">COMICS</a>
                     </li>
                     <li>
                         <a>MOVIES</a>
